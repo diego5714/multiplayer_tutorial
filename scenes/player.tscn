@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpl56ndya6ek0"]
+
+[ext_resource type="Texture2D" uid="uid://tw8t38ns0seh" path="res://icon.svg" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://chkfsc232qlcl" path="res://scenes/player.gd" id="2_g2els"]
+
+[node name="Player" type="Sprite2D"]
+texture = ExtResource("1_3vyb7")
+script = ExtResource("2_g2els")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -25.0
+offset_top = 66.0
+offset_right = 22.0
+offset_bottom = 89.0
+text = "Name"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
